@@ -1,0 +1,114 @@
+{
+  "app": {
+    "title": "Agent Cockpit"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "agents": "Agents",
+    "briefings": "Briefings",
+    "credits": "Credits",
+    "settings": "Settings",
+    "help": "Help",
+    "teams": "Teams"
+  },
+  "agents": {
+    "market_analyst": "Market Analyst",
+    "trend_scout": "Trend Scout",
+    "survey_assistant": "Survey Assistant",
+    "strategy_advisor": "Strategy Advisor"
+  },
+  "credits": {
+    "balance": "Balance",
+    "purchase": "Purchase Credits",
+    "transaction_history": "Transaction History",
+    "estimated_cost": "Estimated Cost",
+    "confirm_task": "Confirm Task"
+  },
+  "briefing": {
+    "title": "Briefing Title",
+    "executive_summary": "Executive Summary",
+    "context": "Context",
+    "insights": "Key Insights",
+    "analysis": "Detailed Analysis",
+    "recommendations": "Recommendations",
+    "methodology": "Methodology & Sources",
+    "export_pdf": "Export as PDF",
+    "export_ppt": "Export as PowerPoint",
+    "exportPDF": "Export as PDF",
+    "yourNotes": "Your Notes",
+    "notesPlaceholder": "Add your notes here...",
+    "addNotes": "Add Notes",
+    "company": "Company",
+    "domain": "Domain",
+    "noContext": "No context available",
+    "agent": "Agent",
+    "prompt": "Task",
+    "generated": "Generated on",
+    "chapters": {
+      "context": "Context",
+      "executiveSummary": "Executive Summary",
+      "analysis": "Detailed Analysis",
+      "insights": "Key Insights",
+      "recommendations": "Recommendations",
+      "methodology": "Methodology & Data Basis"
+    },
+    "share": "Share",
+    "shareBriefing": "Share Briefing",
+    "selectTeams": "Select Teams",
+    "noTeamsAvailable": "No teams available",
+    "permission": "Permission",
+    "permissionView": "View",
+    "permissionEdit": "Edit",
+    "permissionViewDescription": "Team members can only view the briefing",
+    "permissionEditDescription": "Team members can add notes and comments",
+    "shareSuccess": "Briefing shared successfully",
+    "selectTeamRequired": "Please select at least one team"
+  },
+  "briefings": {
+    "notFound": "Briefing not found"
+  },
+  "onboarding": {
+    "welcome": "Welcome",
+    "analyzing": "Analyzing your company...",
+    "complete": "Analysis complete"
+  },
+  "teams": {
+    "title": "Teams",
+    "subtitle": "Manage your teams and collaborate on analyses",
+    "createTeam": "Create Team",
+    "teamName": "Team Name",
+    "teamNamePlaceholder": "e.g., Market Research Team",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the purpose of this team",
+    "create": "Create",
+    "created": "Team created successfully",
+    "nameRequired": "Team name is required",
+    "addMember": "Add Member",
+    "memberEmail": "Email Address",
+    "memberEmailPlaceholder": "member@example.com",
+    "emailRequired": "Email address is required",
+    "role": "Role",
+    "roleViewer": "Viewer",
+    "roleMember": "Member",
+    "roleAdmin": "Administrator",
+    "add": "Add",
+    "memberAdded": "Member added successfully",
+    "memberRemoved": "Member removed successfully",
+    "confirmRemove": "Are you sure you want to remove this member?",
+    "manage": "Manage",
+    "members": "Members",
+    "noTeams": "No Teams",
+    "noTeamsDescription": "Create your first team to start collaborating",
+    "createFirstTeam": "Create First Team"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "logout": "Logout",
+    "login": "Login"
+  }
+}

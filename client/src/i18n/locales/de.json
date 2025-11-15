@@ -1,0 +1,114 @@
+{
+  "app": {
+    "title": "Agenten-Cockpit"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "agents": "Agenten",
+    "briefings": "Briefings",
+    "credits": "Credits",
+    "settings": "Einstellungen",
+    "help": "Hilfe",
+    "teams": "Teams"
+  },
+  "agents": {
+    "market_analyst": "Markt-Analyst",
+    "trend_scout": "Trend-Scout",
+    "survey_assistant": "Umfrage-Assistent",
+    "strategy_advisor": "Strategie-Berater"
+  },
+  "credits": {
+    "balance": "Guthaben",
+    "purchase": "Credits kaufen",
+    "transaction_history": "Transaktionsverlauf",
+    "estimated_cost": "Geschätzte Kosten",
+    "confirm_task": "Aufgabe bestätigen"
+  },
+  "briefing": {
+    "title": "Briefing-Titel",
+    "executive_summary": "Management Summary",
+    "context": "Ausgangslage",
+    "insights": "Kern-Erkenntnisse",
+    "analysis": "Detailanalyse",
+    "recommendations": "Handlungsempfehlungen",
+    "methodology": "Methodik & Quellen",
+    "export_pdf": "Als PDF exportieren",
+    "export_ppt": "Als PowerPoint exportieren",
+    "exportPDF": "Als PDF exportieren",
+    "yourNotes": "Ihre Notizen",
+    "notesPlaceholder": "Fügen Sie hier Ihre Notizen hinzu...",
+    "addNotes": "Notizen hinzufügen",
+    "company": "Unternehmen",
+    "domain": "Domain",
+    "noContext": "Kein Kontext verfügbar",
+    "agent": "Agent",
+    "prompt": "Aufgabe",
+    "generated": "Erstellt am",
+    "chapters": {
+      "context": "Kontext",
+      "executiveSummary": "Executive Summary",
+      "analysis": "Detaillierte Analyse",
+      "insights": "Zentrale Erkenntnisse",
+      "recommendations": "Handlungsempfehlungen",
+      "methodology": "Methodik & Datengrundlage"
+    },
+    "share": "Teilen",
+    "shareBriefing": "Briefing teilen",
+    "selectTeams": "Teams auswählen",
+    "noTeamsAvailable": "Keine Teams verfügbar",
+    "permission": "Berechtigung",
+    "permissionView": "Ansehen",
+    "permissionEdit": "Bearbeiten",
+    "permissionViewDescription": "Team-Mitglieder können das Briefing nur ansehen",
+    "permissionEditDescription": "Team-Mitglieder können Notizen hinzufügen und kommentieren",
+    "shareSuccess": "Briefing erfolgreich geteilt",
+    "selectTeamRequired": "Bitte wählen Sie mindestens ein Team aus"
+  },
+  "briefings": {
+    "notFound": "Briefing nicht gefunden"
+  },
+  "onboarding": {
+    "welcome": "Willkommen",
+    "analyzing": "Analysiere Ihr Unternehmen...",
+    "complete": "Analyse abgeschlossen"
+  },
+  "teams": {
+    "title": "Teams",
+    "subtitle": "Verwalten Sie Ihre Teams und arbeiten Sie gemeinsam an Analysen",
+    "createTeam": "Team erstellen",
+    "teamName": "Team-Name",
+    "teamNamePlaceholder": "z.B. Marktforschungs-Team",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Beschreiben Sie den Zweck dieses Teams",
+    "create": "Erstellen",
+    "created": "Team erfolgreich erstellt",
+    "nameRequired": "Team-Name ist erforderlich",
+    "addMember": "Mitglied hinzuf\u00fcgen",
+    "memberEmail": "E-Mail-Adresse",
+    "memberEmailPlaceholder": "mitglied@beispiel.de",
+    "emailRequired": "E-Mail-Adresse ist erforderlich",
+    "role": "Rolle",
+    "roleViewer": "Betrachter",
+    "roleMember": "Mitglied",
+    "roleAdmin": "Administrator",
+    "add": "Hinzuf\u00fcgen",
+    "memberAdded": "Mitglied erfolgreich hinzugef\u00fcgt",
+    "memberRemoved": "Mitglied erfolgreich entfernt",
+    "confirmRemove": "M\u00f6chten Sie dieses Mitglied wirklich entfernen?",
+    "manage": "Verwalten",
+    "members": "Mitglieder",
+    "noTeams": "Keine Teams",
+    "noTeamsDescription": "Erstellen Sie Ihr erstes Team, um mit der Zusammenarbeit zu beginnen",
+    "createFirstTeam": "Erstes Team erstellen"
+  },
+  "common": {
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "logout": "Abmelden",
+    "login": "Anmelden"
+  }
+}
