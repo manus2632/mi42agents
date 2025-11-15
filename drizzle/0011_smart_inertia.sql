@@ -1,0 +1,2 @@
+ALTER TABLE `agent_model_configs` MODIFY COLUMN `agentType` enum('market_analyst','trend_scout','survey_assistant','strategy_advisor','demand_forecasting','project_intelligence','pricing_strategy','competitor_intelligence') NOT NULL;--> statement-breakpoint
+ALTER TABLE `agent_tasks` MODIFY COLUMN `agentType` enum('market_analyst','trend_scout','survey_assistant','strategy_advisor','demand_forecasting','project_intelligence','pricing_strategy','competitor_intelligence') NOT NULL;

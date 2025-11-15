@@ -1,0 +1,90 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1762728844841,
+      "tag": "0000_far_caretaker",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1762779072589,
+      "tag": "0001_steep_screwball",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1762788954601,
+      "tag": "0002_warm_quasar",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1762807927260,
+      "tag": "0003_sweet_rawhide_kid",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1762845165790,
+      "tag": "0004_groovy_slapstick",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1762845833879,
+      "tag": "0005_goofy_domino",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1762896090142,
+      "tag": "0006_unusual_korg",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1762970794492,
+      "tag": "0007_first_paibok",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1762973793790,
+      "tag": "0008_lonely_corsair",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1763037091837,
+      "tag": "0009_stormy_zeigeist",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "5",
+      "when": 1763039655865,
+      "tag": "0010_normal_reavers",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "5",
+      "when": 1763147209786,
+      "tag": "0011_smart_inertia",
+      "breakpoints": true
+    }
+  ]
+}

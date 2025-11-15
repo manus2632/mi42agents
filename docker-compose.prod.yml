@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  mi42-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - VITE_APP_ID=mi42
+        - VITE_APP_TITLE=Mi42
+        - VITE_APP_LOGO=/mi42-logo.png
+        - VITE_OAUTH_PORTAL_URL=https://auth.manus.im
+        - VITE_FRONTEND_FORGE_API_KEY=${VITE_FRONTEND_FORGE_API_KEY:-}
+        - VITE_FRONTEND_FORGE_API_URL=https://forge.manus.im
+    container_name: mi42-app
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - PORT=3001
+      - DATABASE_URL=mysql://mi42_user:mi42_password_2025@mi42-db:3306/mi42_db
+      - JWT_SECRET=${JWT_SECRET:-change_this_secret_key_in_production}
+      - OAUTH_SERVER_URL=${OAUTH_SERVER_URL:-https://api.manus.im}
+      - VITE_OAUTH_PORTAL_URL=${VITE_OAUTH_PORTAL_URL:-https://auth.manus.im}
+      - VITE_APP_ID=${VITE_APP_ID:-mi42}
+      - VITE_APP_TITLE=Mi42
+      - VITE_APP_LOGO=/mi42-logo.png
+      - OWNER_OPEN_ID=${OWNER_OPEN_ID:-}
+      - OWNER_NAME=${OWNER_NAME:-Admin}
+      - BUILT_IN_FORGE_API_URL=${BUILT_IN_FORGE_API_URL:-https://forge.manus.im}
+      - BUILT_IN_FORGE_API_KEY=${BUILT_IN_FORGE_API_KEY:-}
+      - VITE_FRONTEND_FORGE_API_KEY=${VITE_FRONTEND_FORGE_API_KEY:-}
+      - VITE_FRONTEND_FORGE_API_URL=${VITE_FRONTEND_FORGE_API_URL:-https://forge.manus.im}
+      - OPEN_WEBUI_API_URL=https://maxproxy.bl2020.com/api/chat/completions
+      - OPEN_WEBUI_API_KEY=sk-bd621b0666474be1b054b3c5360b3cef
+      - OPEN_WEBUI_MODEL=gpt-oss:120b
+    # No volumes needed - using built image
+    networks:
+      - mi42_network
+    depends_on:
+      mi42-db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  mi42-db:
+    image: mysql:8.0
+    container_name: mi42-db
+    environment:
+      - MYSQL_ROOT_PASSWORD=mi42_root_password_2025
+      - MYSQL_DATABASE=mi42_db
+      - MYSQL_USER=mi42_user
+      - MYSQL_PASSWORD=mi42_password_2025
+    ports:
+      - "3307:3306"
+    volumes:
+      - mi42_db_data:/var/lib/mysql
+    networks:
+      - mi42_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pmi42_root_password_2025"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+networks:
+  mi42_network:
+    driver: bridge
+
+volumes:
+  mi42_node_modules:
+  mi42_db_data:
